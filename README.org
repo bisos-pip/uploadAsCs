@@ -13,12 +13,6 @@
 
 #+END:
 
-* TODOs
-** TODO LoadAs.cs run on examples should have params.
-** TODO Verify should provide a report. ./module.py should be absolute.
-** TODO Pass to module.py as a parameter, its own full path.
-** TODO Setup and test a functional  seed-example
-
 * Overview
 
 /bisos.uploadAsCs/ provides various facilities for uploading (importing) a module into the
@@ -32,11 +26,6 @@ pyCS framework and execute that module.
 
 
 * Table of Contents     :TOC:
-- [[#todos][TODOs]]
-  - [[#loadascs-run-on-examples-should-have-params][LoadAs.cs run on examples should have params.]]
-  - [[#verify-should-provide-a-report-modulepy-should-be-absolute][Verify should provide a report. ./module.py should be absolute.]]
-  - [[#pass-to-modulepy-as-a-parameter-its-own-full-path][Pass to module.py as a parameter, its own full path.]]
-  - [[#setup-and-test-a-functional--seed-example][Setup and test a functional  seed-example]]
 - [[#overview][Overview]]
 - [[#a-standalone-piece-of-bisos-----bystar-internet-services-operating-system][A Standalone Piece of BISOS --- ByStar Internet Services Operating System]]
 - [[#installation-of-bisosuploadascs-package][Installation of bisos.uploadAsCs Package]]
@@ -44,6 +33,7 @@ pyCS framework and execute that module.
   - [[#installation-with-pipx][Installation With pipx]]
 - [[#usage-of-bisosuploadascs-package][Usage of bisos.uploadAsCs Package]]
 - [[#support][Support]]
+- [[#todos][TODOs]]
 
 * A Standalone Piece of BISOS --- ByStar Internet Services Operating System
 
@@ -105,6 +95,14 @@ For support, criticism, comments, and questions, please contact the
 author/maintainer\\
 [[http://mohsen.1.banan.byname.net][Mohsen Banan]] at:
 [[http://mohsen.1.banan.byname.net/contact]]
+
+
+
+* TODOs
+- TODO LoadAs.cs run on examples should have params.
+- TODO Verify should provide a report. ./module.py should be absolute.
+- TODO Pass to module.py as a parameter, its own full path.
+- TODO Setup and test a functional  seed-example
 
 
 # Local Variables:
