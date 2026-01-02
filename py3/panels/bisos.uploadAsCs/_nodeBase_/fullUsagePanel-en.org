@@ -55,8 +55,26 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(outline-show-subtree+toggle)][| _Pip and Pipx Package Installation_: |]] <<Command>> bisos.uploadAsCs  [[elisp:(org-shifttab)][<)]] E|
 ####+END:
-####+BEGIN: blee:bxPanel:runResult :outLevel 1  :sep t :command "pipx install bisos.uploadAsCs"  :results "none" :comment "Pipx Package Installation" :afterComment ""
+####+BEGIN: blee:bxPanel:runResult :outLevel 1  :sep t :command "pip show bisos.uploadAsCs"  :results "t" :comment "Pip installed module version" :afterComment ""
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     [[elisp:(org-cycle)][| /:/ |]]  [[elisp:(blee:org-update-named-dblocks-above)][D-Run]] :: [[elisp:(lsip-local-run-command "pip show bisos.uploadAsCs")][pip show bisos.uploadAsCs]] *|*  =Pip installed module version= *|*    |
+Last Executed at: 202510-26-18:26:41  by: bystar on: HSS-1013
+----------------------------
+Name: bisos.uploadAsCs
+Version: 0.1
+Summary: bisos.vagrantBaseBoxes: Facilities for Creating and Managing Vagrant Packer Base Boxes
+Home-page:
+Author: Mohsen Banan
+Author-email: libre@mohsen.1.banan.byname.net
+License: AGPL
+Location: /bisos/venv/py3/dev-bisos3/lib/python3.11/site-packages
+Editable project location: /bisos/git/auth/bxRepos/bisos-pip/uploadAsCs/py3
+Requires: bisos, bisos.b, bisos.basics, bisos.common, bisos.csPlayer, bisos.debian, setuptools
+Required-by: bisos.tocsModules
+
+* [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:bxPanel:runResult :outLevel 1  :sep nil :command "pipx install bisos.uploadAsCs"  :results "none" :comment "Pipx Package Installation" :afterComment ""
 * [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     [[elisp:(lsip-local-run-command "pipx install bisos.uploadAsCs")][pipx install bisos.uploadAsCs]] *|*  =Pipx Package Installation= *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 ####+BEGIN: blee:bxPanel:runResult :outLevel 1  :sep nil :command "pipx uninstall bisos.uploadAsCs"  :results "none" :comment "Pipx Package Un-Installation" :afterComment ""
